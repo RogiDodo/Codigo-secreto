@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Código Secreto</title>
+  <title>...</title>
 </head>
 <body style="text-align:center; padding-top:100px; font-family:sans-serif;">
-  <h2>Digite o código secreto:</h2>
+  <h2>Digite o código:</h2>
   <input id="codigo" placeholder="" />
   <button onclick="verificar()">Entrar</button>
   <p id="mensagem" style="color:red;"></p>
@@ -13,10 +13,10 @@
   <script>
     function verificar() {
       const input = document.getElementById("codigo").value.trim();
-      if (input === "chuva123") {
+      if (input === "Hotel room") {
         window.location.href = "https://youtu.be/dQw4w9WgXcQ"; // substitua pelo seu link
       } else {
-        document.getElementById("mensagem").innerText = "Código incorreto!";
+        document.getElementById("mensagem").innerText = "...";
       }
     }
   </script>
